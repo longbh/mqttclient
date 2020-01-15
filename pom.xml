@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fomaly</groupId>
+    <artifactId>mqtt-client</artifactId>
+    <packaging>pom</packaging>
+    <version>${mqtt-client.version}</version>
+
+    <properties>
+        <!-- 各服务版本 -->
+        <mqtt-client.version>0.1</mqtt-client.version>
+        <mqtt.version>0.1</mqtt.version>
+        <tcp.version>0.1</tcp.version>
+        <jdk.version>1.8</jdk.version>
+    </properties>
+
+    <modules>
+        <module>tcp</module>
+        <module>mqtt</module>
+    </modules>
+
+
+</project>
